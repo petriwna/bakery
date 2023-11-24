@@ -1,0 +1,29 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "printWidth": 80,
+  "trailingComma": "es5",
+  "arrowParens": "always",
+  "htmlWhitespaceSensitivity": "strict",
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": [
+        "*.html"
+      ],
+      "options": {
+        "parser": "html"
+      }
+    },
+    {
+      "files": [
+        "*.css",
+        "*.scss"
+      ],
+      "options": {
+        "parser": "css"
+      }
+    }
+  ]
+}

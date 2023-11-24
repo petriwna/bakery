@@ -1,0 +1,36 @@
+{
+  "name": "bakery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nataliia Sychevska",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "cmd": "gulp",
+    "build": "yarn cmd default",
+    "watch": "yarn cmd watch",
+    "clear": "yarn cmd clean",
+    "format": "prettier --write \"**/*.js\" \"**/*.html\" \"**/*.css\" \"**/*.scss\""
+  },
+  "dependencies": {
+    "global": "4.4.0",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "9.0.0",
+    "gulp-clean-css": "4.3.0",
+    "gulp-cli": "2.3.0",
+    "gulp-concat": "2.6.1",
+    "gulp-imagemin": "9.0.0",
+    "gulp-rename": "2.0.0",
+    "gulp-uglify": "3.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "29.5.8",
+    "gulp-connect": "^5.7.0",
+    "gulp-dart-sass": "^1.1.0",
+    "gulp-sass": "5.1.0",
+    "jest": "29.7.0",
+    "sass": "^1.69.5",
+    "gulp-rimraf": "1.0.0",
+    "prettier": "3.1.0"
+  }
+}
